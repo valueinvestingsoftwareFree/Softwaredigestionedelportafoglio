@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Immagini dell'Applicazione Mobile</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #0f172a;
+        color: #e2e8f0;
+    }
+
+    header {
+        background: linear-gradient(135deg, #1e293b, #0f172a);
+        padding: 40px 20px;
+        text-align: center;
+        border-bottom: 1px solid #334155;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 28px;
+        color: #38bdf8;
+    }
+
+    header p {
+        margin-top: 10px;
+        color: #94a3b8;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .section {
+        margin-bottom: 60px;
+        background: #111827;
+        padding: 20px;
+        border-radius: 12px;
+        border: 1px solid #1f2937;
+    }
+
+    .section h2 {
+        color: #38bdf8;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .section p {
+        color: #cbd5e1;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 15px;
+        border: 1px solid #334155;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    @media (max-width: 1000px) {
+        .grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 650px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 18px;
+        background: #38bdf8;
+        color: #0f172a;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+
+    .btn:hover {
+        background: #0ea5e9;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Applicazione Mobile per Investimenti e Gestione del Portafoglio</h1>
+    <p>
+        Un'applicazione Android complementare progettata per sincronizzarsi con la piattaforma desktop, consentendo agli investitori di monitorare portafogli, dividendi, classifiche, prezzi di mercato e analisi finanziarie direttamente dai dispositivi mobili.
+    </p>
+    <a href="index.html" class="btn">← Torna all'Indice</a>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="section">
+            <h2>Interfaccia di Login Mobile</h2>
+            <p>Schermata di accesso sicura che fornisce accesso all’ambiente mobile di gestione del portafoglio.</p>
+            <img src="36.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Finestra di Sincronizzazione Desktop</h2>
+            <p>Modulo di sincronizzazione che collega l’applicazione mobile al software desktop di gestione degli investimenti.</p>
+            <img src="37.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Selettore delle Azioni Monitorate</h2>
+            <p>Interfaccia spinner che mostra l’elenco delle azioni monitorate disponibili per l’analisi mobile del portafoglio.</p>
+            <img src="39.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Dashboard Mobile Principale</h2>
+            <p>Panoramica dell’interfaccia dell’applicazione mobile, inclusi pulsanti di navigazione, riepiloghi finanziari e informazioni sul portafoglio.</p>
+            <img src="40.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Grafico a Barre della Distribuzione dei Dividendi</h2>
+            <p>Visualizzazione tramite grafico a barre che confronta i dividendi distribuiti dalle diverse azioni del portafoglio.</p>
+            <img src="41.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Panoramica di Transazioni e Partecipazioni</h2>
+            <p>Mostra acquisti di azioni, vendite, dividendi in azioni ricevuti e il numero di azioni ancora possedute.</p>
+            <img src="42.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Analisi del Ranking delle Azioni</h2>
+            <p>Classifica delle azioni basata su valutazioni e modelli di scoring generati dal software desktop.</p>
+            <img src="43.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Prezzo di Mercato vs Valore Intrinseco</h2>
+            <p>Confronto tra i prezzi medi annuali di mercato e i valori intrinseci delle azioni monitorate.</p>
+            <img src="44.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Analisi dei Profitti Simulati</h2>
+            <p>Grafico che mostra i profitti simulati nel caso in cui tutte le posizioni del portafoglio venissero liquidate, basato sulle simulazioni del software desktop.</p>
+            <img src="45.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Radar di Distribuzione dei Dividendi</h2>
+            <p>Grafico radar che illustra le distribuzioni dei dividendi nel corso degli anni per l’azione selezionata.</p>
+            <img src="46.PNG">
+        </div>
+
+        <div class="section">
+            <h2>Grafico ad Area dei Prezzi Giornalieri di Mercato</h2>
+            <p>Grafico ad area che rappresenta i movimenti giornalieri dei prezzi di mercato della società selezionata.</p>
+            <img src="47.PNG">
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
